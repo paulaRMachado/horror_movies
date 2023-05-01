@@ -12,7 +12,7 @@ def img1(merged_df):
 
     profit_df = merged_df[condition_1 & condition_2]
 
-    fig1 = px.scatter(profit_df, x="imdb_rating", y="profit", hover_data=["title"], title='Relatioship of profit and IMDB ratings', labels={
+    fig1 = px.scatter(profit_df, x="imdb_rating", y="profit", hover_data=["title"], title='Relationship of profit and IMDB ratings', labels={
                      "profit": "Profit", "imdb_rating": "IMDB ratings"})
     fig1.update_layout(
     shapes=[dict(type='rect', xref='x', yref='y', x0=0, y0=-float('inf'),

@@ -27,12 +27,28 @@ The attempts to scrape data from The Numbers, Rotten Tomatoes, Saturn Awards, Wa
 
 ![](https://i.pinimg.com/474x/cc/9a/c8/cc9ac8529513d1bfe858e35e454c9593.jpg)
 
+### PLOTS
 The plots below are the result of the exploration.
-![](image/linefig.html)
-![](image/fig5.html)
-![](image/box.html)
-![](image/fig4.html)
-![](image/fig1.html)
+
+In this scatter plot it is shown that popularity and IMBD rating  have no clear relationship for HORROR movies.
+![](image/fig4.png)
+
+Here is the US box office (revenue) across a period of 50 years.
+![](image/line_plot.png)
+
+From there visualize how the profit is distributed. 
+![](image/box.png)
+
+Then we explore the relationship between IMDB ratings and profit. Profits above US$ 1M have a IMDB score superior to 6.  
+![](image/fig1.png)
+
+And in the final plot it is shown the most profitable subgenres in HORROR.
+![](image/fig5.png)
+
+
+
 
 
 ## Launch
+1. Git clone this repo;
+2. Run `main.ipynb` file
