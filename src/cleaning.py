@@ -35,7 +35,7 @@ def clean_local (df1):
     df1 = pd.read_csv("data/horror_clean.csv")
     return df1
 
-def clean_aquired (df2):
+def clean_acquired (df2):
     """
     This function converts columns data from string to ints and floats. Also, sets box office values to match budget values. 
     args

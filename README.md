@@ -12,7 +12,7 @@ After aquiring the information available, changes were made to datatypes, standa
 The exploration through the data had no fixed question attached.  
 
 
-## Tecnologies
+## Technologies
 For this project seven different libraries were used: 
 - Requests
 - BeautifulSoup
